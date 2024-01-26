@@ -1,0 +1,574 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --rose-soft: #FFD2D2;
+
+
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.view-home {
+    width: 100%;
+    background: linear-gradient(180deg, #FFD2D2 0%, #FFF 99.99%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    margin-bottom: 60px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+
+}
+
+ul {
+
+    display: flex;
+    gap: 120px;
+    justify-content: flex-end;
+
+}
+
+li {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+
+li a {
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+    font-family: "Italiana", sans-serif;
+    font-size: 22px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+
+    font-family: "Italiana", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+span {
+    color: #48125A;
+
+}
+
+.name-decoration {
+    height: 35px;
+    background-color: var(--rose-soft);
+    margin-bottom: 90px;
+}
+
+.resume-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #fdbbff;
+    background-color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    color: #fdbbff;
+    font-weight: bold;
+}
+
+.resume-cv span {
+    display: inline-block;
+    background-image: url(./assets/Vector.png);
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.container-deco {
+    display: flex;
+    width: 500px;
+    height: 420px;
+}
+
+.container-deco img {
+    width: 650px;
+    height: 420px;
+
+
+}
+
+/*view about*/
+
+.view-about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 360px;
+}
+
+.tittle {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-about {
+    width: 70%;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #403F3F;
+    font-size: 20px;
+    font-weight: normal;
+    align-self: center;
+}
+
+.bold-pink {
+    color: #FC79FF;
+    font-weight: 400;
+}
+
+/*View skill*/
+
+.view-skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+.container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.tittle-skill {
+    /*container*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tittle-skill h2,
+.tittle-about {
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Century Gothic", sans-serif;
+    color: var(--rose-soft);
+    margin-bottom: 25px;
+}
+
+.container-skills p {
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    border: 2px solid #BBB9B9;
+    background: rgba(255, 255, 255, 0.00);
+    text-align: center;
+    padding: 6px;
+    color: #979191;
+    font-family: "Itim", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+
+}
+
+/*Education*/
+
+
+.view-education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-education {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 45px;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid #BBB9B9;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.tittle-education h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: "Century Gothic", sans-serif;
+    color: var(--rose-soft);
+}
+
+
+.container-education p {
+    color: #979191;
+    font-family: "Itim", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    align-self: center;
+}
+
+.container-education span {
+    color: rgba(252, 121, 255, 0.71);
+}
+
+
+.certificate {
+    display: flex;
+    width: 142px;
+    height: 28px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid #FC79FF;
+    background: #FFF;
+    margin-top: 14px;
+    color: #FC79FF;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.container-buterfly {
+    width: 50%;
+    height: 50%;
+}
+
+.container-buterfly img {
+    position: absolute;
+    bottom: -745px;
+    left: 400px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+
+}
+
+/*view projects*/
+
+.view-projects {
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(180deg, #FFF 0%, #FFD2D2 99.99%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.view-projects h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: "Century Gothic", sans-serif;
+    color: var(--rose-soft);
+
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.card-body {
+    min-width: 180px;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+    min-height: 150px;
+}
+
+.card-title {
+    text-align: center;
+    color: #2B2929;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.card-text {
+    text-align: center;
+    color: #979191;
+    font-family: "Inria Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btns {
+
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.btns a {
+    height: 40px;
+    background-color: #E9E7E7;
+    color: #979191;
+    font-family: "Itim", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+:hover .btns a {
+    background-color: #E9E7E7;
+}
+
+/*view contact*/
+.view-contact {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    background-color: #1d1c1c;
+
+}
+
+.view-contact h2 {
+    text-align: center;
+    color: var(--rose-soft);
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.view-contact p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #FFF;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 40px;
+
+}
+
+.view-contact p span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    background-size: contain;
+    background-position: center;
+    background-image: url(./assets/Vector.png);
+}
+
+.footer-links a {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 8px;
+    margin-left: 50px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.footer-links a span {
+    margin-right: 10px;
+}
+
+/*iconos*/
+
+.linkedin {
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(./assets/icon/linkedin.png);
+}
+
+.github {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(./assets/icon/github.png);
+}
+
+.gmail {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(./assets/icon/gmail.png);
+}
+
+
+@media ((min-width:320px)and (max-width: 768px)) {
+
+    .view-home {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container-deco {
+        display: none;
+    }
+
+    .view-home nav {
+        display: none;
+    }
+
+
+    .view-about {
+        width: 100%;
+        height: 100%;
+    }
+
+    .name-decoration {
+        background-color: transparent;
+    }
+
+    .text-about {
+        width: 80%;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .container-name p {
+        font-size: 40px;
+
+    }
+
+    .container-name {
+        margin-top: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .container-deco img {
+        display: none;
+    }
+
+    .view-skill {
+        width: 100%;
+
+    }
+
+    .container-skills p {
+        width: 90px;
+        height: 28px;
+        padding: 3px;
+    }
+
+    .container-education {
+        width: 328px;
+        font-size: 14px;
+    }
+
+
+    .container-buterfly img {
+        position: absolute;
+        top: 120px;
+        left: 250px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .view-education {
+        width: 100%;
+
+    }
+
+    .view-projects {
+        position: relative;
+        height: 60vh;
+
+    }
+
+    .container-cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 330px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+    }
+
+    .card {
+        width: 100%;
+        position: relative;
+        scroll-snap-align: start;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        gap: 10px;
+    }
+
+
+
+    .view-contact {
+        width: 100%;
+
+    }
+
+    .footer-links a {
+        width: 100%;
+        font-size: 12px;
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 8px;
+    }
+
+    .footer-links a span {
+        margin-right: 10px;
+    }
+
+    .view-contact p {
+        margin-top: 45px;
+    }
+
+
+}
