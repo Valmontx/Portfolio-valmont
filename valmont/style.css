@@ -82,11 +82,11 @@ span {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    border: 2px solid #fdbbff;
+    border: 2px solid #f2d4f3;
     background-color: #FFF;
     text-decoration: none;
     text-align: center;
-    color: #fdbbff;
+    color: #f2d4f3;
     font-weight: bold;
 }
 
@@ -144,8 +144,8 @@ span {
 }
 
 .bold-pink {
-    color: #FC79FF;
-    font-weight: 400;
+    color: var(--rose-soft);
+    font-weight: 700;
 }
 
 /*View skill*/
@@ -243,7 +243,8 @@ span {
 }
 
 .container-education span {
-    color: rgba(252, 121, 255, 0.71);
+    color: var(--rose-soft);
+    font-weight: 700;
 }
 
 
@@ -254,10 +255,10 @@ span {
     justify-content: center;
     align-self: center;
     border-radius: 10px;
-    border: 2px solid #FC79FF;
+    border: 2px solid var(--rose-soft);
     background: #FFF;
     margin-top: 14px;
-    color: #FC79FF;
+    color: var(--rose-soft);
     font-family: "Century Gothic", sans-serif;
     font-size: 15px;
     font-weight: 400;
