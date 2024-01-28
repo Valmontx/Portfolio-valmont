@@ -86,10 +86,11 @@ span {
     background-color: #FFF;
     text-decoration: none;
     text-align: center;
-    color: #FFACBB;
-    font-weight: bold;
+    color: #d4c4c7;
+    font-family:"Century Gothic", sans-serif; 
+    font-weight: 700;
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 15px 0 rgba(134, 134, 136, 0.37);
+    box-shadow: 0 5px 5px 0 rgba(134, 134, 136, 0.37);
 }
 
 .resume-cv span {
