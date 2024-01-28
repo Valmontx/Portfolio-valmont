@@ -82,12 +82,14 @@ span {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    border: 2px solid #f2d4f3;
+    /* border: 2px solid #f2d4f3; */
     background-color: #FFF;
     text-decoration: none;
     text-align: center;
     color: #f2d4f3;
     font-weight: bold;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 15px 0 rgba(134, 134, 136, 0.37);
 }
 
 .resume-cv span {
@@ -218,9 +220,11 @@ span {
     width: 400px;
     height: 200px;
     padding: 5px;
-    border: 2px solid #BBB9B9;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 25px 0 rgba(134, 134, 136, 0.37);
+    border-radius: 10px;
+    
+
 }
 
 .tittle-education h2 {
@@ -259,6 +263,7 @@ span {
     background: #FFF;
     margin-top: 14px;
     color: var(--rose-soft);
+    font-weight: bold;
     font-family: "Century Gothic", sans-serif;
     font-size: 15px;
     font-weight: 400;
