@@ -5,22 +5,27 @@
     --rose-soft: #FFD2D2;
 
 
+
 }
 
 html {
     width: 100%;
     overflow-x: hidden;
+    cursor: url(./assets/cursor-icon.png), auto;
 
-}
+   }
+
+ 
 
 
 .view-home {
     width: 100%;
-    background: linear-gradient(180deg, #FFD2D2 0%, #FFF 99.99%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+    background: linear-gradient(180deg, #FFD2D2 0%, #f8eba127 100%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100%;
-    margin-bottom: 60px;
+    
+
 }
 
 .nav-bar {
@@ -34,6 +39,8 @@ ul {
     display: flex;
     gap: 120px;
     justify-content: flex-end;
+    
+
 
 }
 
@@ -62,12 +69,27 @@ li a {
     font-family: "Italiana", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
+    animation: nameSpan 2s  linear  ;
+    
+
 }
 
 span {
     color: #48125A;
-
+    
 }
+@keyframes nameSpan{
+    from{
+        transform: translateX(0);
+         color: #74696928;
+         
+    }
+    to{
+        transform: translate(100px);
+    }
+}
+
+
 
 .name-decoration {
     height: 35px;
@@ -91,6 +113,17 @@ span {
     font-weight: 700;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 5px 5px 0 rgba(134, 134, 136, 0.37);
+    cursor: url(./assets/cursor-icon.png), auto;
+    animation: buttonResume 2s linear normal;
+   
+}
+@keyframes buttonResume{
+    from{
+        transform:translateY(-100px);
+    }
+    to{
+        transform:translateY(); 
+    }
 }
 
 .resume-cv span {
@@ -124,19 +157,37 @@ span {
     align-content: center;
     flex-direction: column;
     height: 360px;
+    background-color:#f8eba127 ;
 }
 
-.tittle {
+.tittle-about {
     font-family: "Jacques Francois", serif;
     font-weight: 400;
-    text-decoration: underline;
     color: #000;
     font-size: 30px;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    
+   
+}
+ .tittle-about:hover{
+   text-shadow: 2px 3px 10px #e0a6f388;
+   
+   
+}
+.tittle-skill:hover{
+    text-shadow: 2px 3px 10px #e0a6f388; 
+    font-size: 35px;
+    
+}
+.tittle-education:hover{
+    text-shadow: 2px 3px 10px #e0a6f388;
+    font-size: 35px;
 }
 
+.view-projects h2:hover{
+    text-shadow: 2px 3px 10px #e0a6f388;
+    
+}
 .text-about {
     width: 70%;
     font-family: "Montserrat Alternates", sans-serif;
@@ -144,6 +195,7 @@ span {
     font-size: 20px;
     font-weight: normal;
     align-self: center;
+    margin-top: 20px;
 }
 
 .bold-pink {
@@ -158,6 +210,7 @@ span {
     flex-direction: column;
     width: 100%;
     height: auto;
+    background-color: #f8eba127 ;
 
 }
 
@@ -169,6 +222,8 @@ span {
     margin-top: 15px;
 
 }
+
+
 .container-skills p img{
  width: 20px;
  height: 20px;
@@ -217,6 +272,8 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f8eba127 ;
+
 
 }
 
@@ -232,6 +289,7 @@ span {
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 25px 0 rgba(134, 134, 136, 0.37);
     border-radius: 10px;
+    margin-bottom: 50px;
     
 
 }
@@ -253,6 +311,7 @@ span {
     font-size: 1.1em;
     font-weight: 400;
     align-self: center;
+    
 }
 
 .container-education span  {
@@ -277,6 +336,7 @@ span {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    cursor: url(./assets/cursor-icon.png), auto;
 }
 
 .container-buterfly {
@@ -291,21 +351,39 @@ span {
     width: 140px;
     height: 140px;
     object-fit: cover;
+    animation: butterflyMove 9s linear  infinite ;
 
 }
+
+@keyframes butterflyMove{
+    0%{
+        transform: translateX(100px);
+    }
+    25%{
+        transform: translateY(200px);
+    }
+    45%{
+        transform: rotate(180deg);
+    }
+    
+    
+    100%{
+        transform: translateX(300px);
+    }
+}
+
 
 /*view projects*/
 
 .view-projects {
     width: 100%;
     height: 85vh;
-    background: linear-gradient(180deg, #FFF 0%, #FFD2D2 99.99%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+ background: linear-gradient(180deg,  #f8eba127 0%, #FFD2D2 99.99%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%); 
 }
 
 .view-projects h2 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     margin-bottom: 30px;
     font-weight: 700;
     font-family: "Century Gothic", sans-serif;
@@ -328,16 +406,17 @@ span {
 
 
 .card {
+    height: auto;
     margin-left: 30px;
     width: 100%;
     gap: 10px;
+    border: none;
     
 }
 .card-body {
     min-width: 180px;
     border-radius: 10px;
-    border: transparent;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 .card-img-top {
