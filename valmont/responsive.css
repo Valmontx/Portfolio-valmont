@@ -101,6 +101,48 @@
     .view-contact p {
         margin-top: 45px;
     }
-
-
+.resume-cv{
+    animation: buttonResume 2s linear normal;
+}    
+.name{
+    animation: nameSpan 2s  linear  ;
+}
+.container-buterfly img {
+    animation: butterflyMove 9s linear  infinite ;
+}
+    @keyframes nameSpan{
+        from{
+            transform: translateX(0);
+             color: #74696928;
+             
+        }
+        to{
+            transform: translate(100px);
+        }
+    }
+    @keyframes buttonResume{
+        from{
+            transform:translateY(-100px);
+        }
+        to{
+            transform:translateY(); 
+        }
+    }
+    @keyframes butterflyMove{
+        0%{
+            transform: translateX(100px);
+        }
+        25%{
+            transform: translateY(200px);
+        }
+        45%{
+            transform: rotate(180deg);
+        }
+        
+        
+        100%{
+            transform: translateX(300px);
+        }
+    }
+    
 }
