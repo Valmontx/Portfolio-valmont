@@ -114,17 +114,9 @@ span {
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 5px 5px 0 rgba(134, 134, 136, 0.37);
     cursor: url(./assets/cursor-icon.png), auto;
-    animation: buttonResume 2s linear normal;
    
 }
-@keyframes buttonResume{
-    from{
-        transform:translateY(-100px);
-    }
-    to{
-        transform:translateY(); 
-    }
-}
+
 
 .resume-cv span {
     display: inline-block;
