@@ -106,22 +106,10 @@
     margin-top: 25px;
     margin-bottom: 10px;
 }    
-.name{
-    animation: nameSpan 2s  linear  ;
-}
+
 .container-buterfly img {
     animation: butterflyMove 9s linear  infinite ;
 }
-    @keyframes nameSpan{
-        from{
-            transform: translateX(0);
-             color: #74696928;
-             
-        }
-        to{
-            transform: translate(100px);
-        }
-    }
    
     @keyframes butterflyMove{
         0%{
